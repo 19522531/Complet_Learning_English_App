@@ -25,7 +25,7 @@ class Utils {
                 ),
                 Word(
                     "hello12",
-                    "hello",
+                    "hi",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -39,7 +39,7 @@ class Utils {
                 ),
                 Word(
                     "hello13",
-                    "hello",
+                    "teacher",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -53,7 +53,7 @@ class Utils {
                 ),
                 Word(
                     "hello14",
-                    "hello",
+                    "student",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -67,7 +67,7 @@ class Utils {
                 ),
                 Word(
                     "hello15",
-                    "hello",
+                    "keyboard",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -81,7 +81,7 @@ class Utils {
                 ),
                 Word(
                     "hello16",
-                    "hello",
+                    "laptop",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -95,7 +95,7 @@ class Utils {
                 ),
                 Word(
                     "hello17",
-                    "hello",
+                    "tv",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -109,7 +109,7 @@ class Utils {
                 ),
                 Word(
                     "hello18",
-                    "hello",
+                    "geography",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -123,7 +123,7 @@ class Utils {
                 ),
                 Word(
                     "hello19",
-                    "hello",
+                    "history",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -137,7 +137,7 @@ class Utils {
                 ),
                 Word(
                     "hello20",
-                    "hello",
+                    "adam",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -151,7 +151,7 @@ class Utils {
                 ),
                 Word(
                     "hello21",
-                    "hello",
+                    "sigmoid",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -165,7 +165,7 @@ class Utils {
                 ),
                 Word(
                     "hello22",
-                    "hello",
+                    "wordcloud",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -179,7 +179,7 @@ class Utils {
                 ),
                 Word(
                     "hello23",
-                    "hello",
+                    "fix",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -193,7 +193,7 @@ class Utils {
                 ),
                 Word(
                     "hello24",
-                    "hello",
+                    "provip",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -207,7 +207,7 @@ class Utils {
                 ),
                 Word(
                     "hello25",
-                    "hello",
+                    "hackathon",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -221,7 +221,7 @@ class Utils {
                 ),
                 Word(
                     "hello26",
-                    "hello",
+                    "zep",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -235,7 +235,7 @@ class Utils {
                 ),
                 Word(
                     "hello27",
-                    "hello",
+                    "light",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -249,7 +249,7 @@ class Utils {
                 ),
                 Word(
                     "hello28",
-                    "hello",
+                    "screen",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -263,7 +263,7 @@ class Utils {
                 ),
                 Word(
                     "hello29",
-                    "hello",
+                    "navigation",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
@@ -277,7 +277,7 @@ class Utils {
                 ),
                 Word(
                     "hello30",
-                    "hello",
+                    "mouse",
                     "noun",
                     "A1",
                     "Used as a greeting when you meet somebody, in an email, when you answer the phone or when you want to attract somebody’s attention",
