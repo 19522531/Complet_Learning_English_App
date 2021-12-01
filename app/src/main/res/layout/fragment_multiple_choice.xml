@@ -53,6 +53,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/main_bg"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/toolbar" />
 
@@ -114,9 +115,11 @@
             android:id="@+id/ans_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="đáp án"
+            android:layout_marginTop="24dp"
+            android:text="hello"
+            android:textColor="#0390fc"
             android:textSize="20dp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -136,32 +139,34 @@
             app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout"
+            android:id="@+id/answerConstraintLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/en_word_txt">
+            app:layout_constraintTop_toBottomOf="@+id/en_word_txt"
+            app:layout_constraintVertical_bias="1.0">
+
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/answer_c_cv"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
                 android:clickable="true"
-                android:src="@drawable/clean_thumbnail_example"
+                android:tag="c"
                 app:cardCornerRadius="15dp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toStartOf="@+id/answer_d_cv"
-                app:layout_constraintHorizontal_chainStyle="packed"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/answer_a_cv"
+                app:layout_constraintEnd_toEndOf="@+id/answer_a_cv"
+                app:layout_constraintStart_toStartOf="@+id/answer_a_cv"
+                app:layout_constraintTop_toBottomOf="@+id/answer_a_txt"
                 app:layout_constraintWidth_percent=".35">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/answer_c_txt"
+                    android:id="@+id/answer_c_img"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/clean_thumbnail_example" />
@@ -172,17 +177,17 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:clickable="true"
-                android:src="@drawable/clean_thumbnail_example"
+                android:tag="d"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintBottom_toBottomOf="@+id/answer_c_cv"
                 app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/answer_c_cv"
+                app:layout_constraintEnd_toEndOf="@+id/answer_b_cv"
+                app:layout_constraintStart_toStartOf="@+id/answer_b_cv"
                 app:layout_constraintTop_toTopOf="@+id/answer_c_cv"
                 app:layout_constraintWidth_percent=".35">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/answer_d_txt"
+                    android:id="@+id/answer_d_img"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/clean_thumbnail_example" />
@@ -193,61 +198,118 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginBottom="20dp"
-                android:clickable="true"
-                android:src="@drawable/clean_thumbnail_example"
+                android:tag="a"
                 app:cardCornerRadius="15dp"
-                app:layout_constraintBottom_toTopOf="@+id/answer_c_cv"
                 app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintEnd_toStartOf="@id/answer_b_cv"
+                app:layout_constraintEnd_toStartOf="@+id/answer_b_cv"
                 app:layout_constraintHorizontal_chainStyle="packed"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintWidth_percent=".35">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/answer_a_txt"
+                    android:id="@+id/answer_a_img"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/clean_thumbnail_example" />
+
             </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/answer_a_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:fontFamily="@font/montserrat_extra_bold"
+                android:minHeight="0dp"
+                android:paddingHorizontal="10dp"
+                android:tag="atxt"
+                android:text="A"
+                android:textColor="@color/primaryColor"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="@+id/answer_a_cv"
+                app:layout_constraintStart_toStartOf="@+id/answer_a_cv"
+                app:layout_constraintTop_toBottomOf="@+id/answer_a_cv" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/answer_b_cv"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:clickable="true"
+                android:elevation="10dp"
+                android:paddingHorizontal="10dp"
                 android:src="@drawable/clean_thumbnail_example"
+                android:tag="b"
                 app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
                 app:layout_constraintBottom_toBottomOf="@+id/answer_a_cv"
                 app:layout_constraintDimensionRatio="H,1:1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/answer_a_cv"
+                app:layout_constraintStart_toEndOf="@id/answer_a_cv"
                 app:layout_constraintTop_toTopOf="@+id/answer_a_cv"
                 app:layout_constraintWidth_percent=".35">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/answer_b_txt"
+                    android:id="@+id/answer_b_img"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/clean_thumbnail_example" />
             </androidx.cardview.widget.CardView>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/answer_b_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extra_bold"
+                android:paddingHorizontal="10dp"
+                android:tag="btxt"
+                android:text="B"
+                android:textColor="@color/primaryColor"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="@+id/answer_b_cv"
+                app:layout_constraintStart_toStartOf="@+id/answer_b_cv"
+                app:layout_constraintTop_toBottomOf="@+id/answer_b_cv" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/check_btn"
-            android:layout_width="58dp"
-            android:layout_height="50dp"
-            android:layout_marginHorizontal="30dp"
-            android:background="@drawable/btn_next"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-            app:layout_constraintVertical_bias="0.615" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/answer_c_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extra_bold"
+                android:paddingHorizontal="10dp"
+                android:tag="ctxt"
+                android:text="C"
+                android:textColor="@color/primaryColor"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="@+id/answer_c_cv"
+                app:layout_constraintStart_toStartOf="@+id/answer_c_cv"
+                app:layout_constraintTop_toBottomOf="@+id/answer_c_cv" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/answer_d_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extra_bold"
+                android:paddingHorizontal="10dp"
+                android:tag="dtxt"
+                android:text="D"
+                android:textColor="@color/primaryColor"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/answer_c_txt"
+                app:layout_constraintEnd_toEndOf="@+id/answer_d_cv"
+                app:layout_constraintStart_toStartOf="@+id/answer_d_cv"
+                app:layout_constraintTop_toBottomOf="@+id/answer_c_cv" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/check_btn"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="16dp"
+                android:text="NEXT"
+                android:textColor="@color/green"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/next_btn"
@@ -262,7 +324,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
