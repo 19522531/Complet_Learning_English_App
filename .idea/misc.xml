@@ -22,6 +22,7 @@
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_choosing_mode.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_complete_introduction.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_connect_word.xml" value="0.3546875" />
+        <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_custom_dialog.xml" value="0.2526041666666667" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_d_m_chat.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_find_level.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_flash_card.xml" value="0.3546875" />
@@ -34,7 +35,10 @@
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_test_tab.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_word_day_tab.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_word_detail.xml" value="0.3546875" />
+        <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/fragment_word_list.xml" value="0.2526041666666667" />
+        <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/incorrect_anwser_missing_word_dialog.xml" value="0.2526041666666667" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/message_row.xml" value="0.3546875" />
+        <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/missing_letter_row.xml" value="0.2526041666666667" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/online_user_row.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/sign_up_successfully_dialog.xml" value="0.3546875" />
         <entry key="..\:/Year_3/NT118.L11/Complet_Learning_English_App/app/src/main/res/layout/statistic_experience_dialog.xml" value="0.3546875" />
